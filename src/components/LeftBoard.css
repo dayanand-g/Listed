@@ -1,0 +1,78 @@
+.home {
+    display: flex;
+    padding: 40px;
+}
+
+.left-main{
+    width: 260px;
+    height: 950px;
+    background-color: #000000;
+    border-radius: 30px;
+    padding-right: 10px;
+}
+
+.header{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    padding: 60px 50px;
+    margin: 0px;
+}
+
+.left-mid {
+    color: #FFFFFF;
+    padding-left: 50px;
+}
+
+.option1 {
+    margin: 0px 0px 40px 0px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.option {
+    margin: 0px 0px 40px 0px;
+    color: rgb(208, 207, 207);
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.option-help {
+    color: rgb(208, 207, 207);
+    font-weight: 400;
+    font-size: 14px;
+    margin: 398px 0px 20px 0px;
+}
+
+.option-contact {
+    color: rgb(208, 207, 207);
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0px 0px 60px 0px;
+}
+
+img {
+    width: 17.54px;
+    height: 17.54px;
+    padding-right: 20px;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .home {
+      flex-direction: column;
+      align-items: center;
+    }
+    .left-main{
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .left {
+      height: 500px; /* adjust height as needed */
+    }
+  }
