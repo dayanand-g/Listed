@@ -43,9 +43,9 @@ function Login() {
                 </div>
                 <div className='midPart'>
                     <p className='Text'>Email address</p>
-                    <input type="text" />
+                    <input placeholder='johndoe@gmail.com' type="text" />
                     <p className='Text'>Password</p>
-                    <input type="text" />
+                    <input placeholder='........' type="text" />
                     <p className='Text2'>Forgot password?</p>
                     <button>Sign In</button>
                 </div>
