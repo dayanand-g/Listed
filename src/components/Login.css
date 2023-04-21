@@ -100,6 +100,12 @@
     margin-bottom: 20px;
 }
 
+::placeholder{
+    font-weight: 450;
+    font-size: 16px;
+    color: #000000;
+}
+
 .midPart button{
     background: #000000;
     border-radius: 10px;
